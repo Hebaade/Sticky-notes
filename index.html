@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sticky Notes</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container1">
+         <button type="button" class="btn btn-success" id="create" onclick="TypeNote()" >Create A Note</button>
+        </div>
+        <div class="container2" id="container2"></div>
+        <div class="container3" id="container3">
+            <form>
+                <textarea  id="note-text" placeholder="Write note..." maxlength="96"></textarea>
+                <i class="fa-regular fa-circle-check" id="check"></i>
+                <i class="fa-regular fa-circle-xmark" id="close"></i>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
